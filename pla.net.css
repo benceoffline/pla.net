@@ -1,0 +1,511 @@
+/* Desktop */
+@media only screen and (min-width: 750px) {
+
+
+@font-face {
+    font-family: 'PinyonScript';
+    src:url(assets/fonts/PinyonScript-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: 'HelveticaNeueBold';
+    src:url(assets/fonts/HelveticaNeue-Bold.otf);
+}
+
+@font-face {
+    font-family: 'HelveticaNeueRegular';
+    src:url(assets/fonts/HelveticaNeue-Regular.otf);
+}
+
+
+@font-face {
+    font-family: 'HelveticaNeueBoldItalic';
+    src:url(assets/fonts/HelveticaNeue-BoldItalic.otf);
+}
+
+
+@font-face {
+    font-family: 'CourierNewBold';
+    src:url(assets/fonts/CourierNew-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: 'CourierNewBoldItalic';
+    src:url(assets/fonts/CourierNew-BoldItalic.ttf);
+}
+
+body {
+    background-color: white;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-bottom: 18px;
+}
+
+.overlay {
+    position: fixed;
+    text-align: center;
+    display: block;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+h1 {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'PinyonScript';
+    font-weight: unset;
+    font-kerning: auto;
+    letter-spacing: -0.4px;
+    color: #2F6BC9;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: -4px;
+    padding: 0px; 
+
+}
+
+h1::selection {
+    background: #D8D8D8;
+}
+
+h2 {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'HelveticaNeueRegular';
+    font-weight: unset;
+    font-kerning: normal;
+    letter-spacing: -1.7vw;
+    color: #2F6BC9;
+    font-size: 24vw;
+    line-height: 24vw;
+    text-align: center;
+}
+
+
+p {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'HelveticaNeueBold';
+    font-weight: unset;
+    font-kerning: auto;
+    letter-spacing: -0.4px;
+    color: #D8D8D8;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 14px;
+    padding: 0px; 
+}
+
+.p-italic {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'HelveticaNeueBoldItalic';
+    font-weight: unset;
+    font-kerning: auto;
+    letter-spacing: -0.4px;
+    color: #D8D8D8;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 14px;
+    padding: 0px; 
+}
+
+
+p.caption {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'CourierNewBold';
+    font-weight: unset;
+    font-kerning: auto;
+    letter-spacing: -0.4px;
+    color: #2F6BC9;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px; 
+}
+
+.caption-italic {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'CourierNewBoldItalic';
+    font-weight: unset;
+    font-kerning: auto;
+    letter-spacing: -0.4px;
+    color: #2F6BC9;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px; 
+}
+
+p.bottomnav {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'HelveticaNeueBold';
+    font-weight: unset;
+    font-kerning: auto;
+    letter-spacing: -0.4px;
+    color: #D8D8D8;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px; 
+}
+
+
+p::selection {
+    background: #2F6BC9;
+}
+
+.p-italic::selection {
+    background: #2F6BC9;
+}
+
+p.caption::selection {
+    background: red;
+}
+
+.caption-italic::selection {
+    background: red;
+}
+
+a {
+    color: #D8D8D8;
+    text-decoration: none;
+}
+
+
+
+
+
+.sectionspacer {
+    height: 90px;
+}
+
+.image {
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 4px;
+}
+
+
+#TheBlueMarble {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+#Recycling {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 45%;
+}
+
+#IELogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 31px;
+    margin-bottom: 18px;
+    width: 45%;
+}
+
+#GlobeEmoji {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    width: 45%;
+}
+
+#EarthPerspectives {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+#Screenshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+
+}
+
+/* Mobile */
+@media screen and (max-width: 749px) {
+
+
+    @font-face {
+        font-family: 'PinyonScript';
+        src:url(assets/fonts/PinyonScript-Regular.ttf);
+    }
+    
+    
+    @font-face {
+        font-family: 'HelveticaNeueBold';
+        src:url(assets/fonts/HelveticaNeue-Bold.otf);
+    }
+    
+    @font-face {
+        font-family: 'HelveticaNeueRegular';
+        src:url(assets/fonts/HelveticaNeue-Regular.otf);
+    }
+    
+    
+    @font-face {
+        font-family: 'HelveticaNeueBoldItalic';
+        src:url(assets/fonts/HelveticaNeue-BoldItalic.otf);
+    }
+    
+    
+    @font-face {
+        font-family: 'CourierNewBold';
+        src:url(assets/fonts/CourierNew-Bold.ttf);
+    }
+    
+    
+    @font-face {
+        font-family: 'CourierNewBoldItalic';
+        src:url(assets/fonts/CourierNew-BoldItalic.ttf);
+    }
+    
+    body {
+        background-color: white;
+        margin-right: 18px;
+        margin-left: 18px;
+        margin-bottom: 18px;
+    }
+    
+    .overlay {
+        position: fixed;
+        text-align: center;
+        display: block;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    
+    
+    h1 {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'PinyonScript';
+        font-weight: unset;
+        font-kerning: auto;
+        letter-spacing: -0.4px;
+        color: #2F6BC9;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: -4px;
+        padding: 0px; 
+    
+    }
+    
+    h1::selection {
+        background: #D8D8D8;
+    }
+    
+    h2 {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'HelveticaNeueRegular';
+        font-weight: unset;
+        font-kerning: normal;
+        letter-spacing: -1.7vw;
+        color: #2F6BC9;
+        font-size: 24vw;
+        line-height: 24vw;
+        text-align: center;
+    }
+    
+    
+    p {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'HelveticaNeueBold';
+        font-weight: unset;
+        font-kerning: auto;
+        letter-spacing: -0.4px;
+        color: #D8D8D8;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: left;
+        margin: 0px;
+        margin-bottom: 14px;
+        padding: 0px; 
+    }
+    
+    .p-italic {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'HelveticaNeueBoldItalic';
+        font-weight: unset;
+        font-kerning: auto;
+        letter-spacing: -0.4px;
+        color: #D8D8D8;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: left;
+        margin: 0px;
+        margin-bottom: 14px;
+        padding: 0px; 
+    }
+    
+    
+    p.caption {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'CourierNewBold';
+        font-weight: unset;
+        font-kerning: auto;
+        letter-spacing: -0.4px;
+        color: #2F6BC9;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px; 
+    }
+    
+    .caption-italic {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'CourierNewBoldItalic';
+        font-weight: unset;
+        font-kerning: auto;
+        letter-spacing: -0.4px;
+        color: #2F6BC9;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px; 
+    }
+    
+    p.bottomnav {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'HelveticaNeueBold';
+        font-weight: unset;
+        font-kerning: auto;
+        letter-spacing: -0.4px;
+        color: #D8D8D8;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px; 
+    }
+    
+    
+    p::selection {
+        background: #2F6BC9;
+    }
+    
+    .p-italic::selection {
+        background: #2F6BC9;
+    }
+    
+    p.caption::selection {
+        background: red;
+    }
+    
+    .caption-italic::selection {
+        background: red;
+    }
+    
+    a {
+        color: #D8D8D8;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+    
+    .sectionspacer {
+        height: 90px;
+    }
+    
+    .image {
+        margin: 0%;
+        padding: 0%;
+        margin-bottom: 4px;
+    }
+    
+    
+    #TheBlueMarble {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    
+    #Recycling {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        width: 65%;
+    }
+    
+    #IELogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        width: 65%;
+    }
+    
+    #GlobeEmoji {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        width: 65%;
+    }
+    
+    #EarthPerspectives {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+    
+    #Screenshot {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+    }
+    
+    
+    }
