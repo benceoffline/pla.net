@@ -58,8 +58,8 @@ h1 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'PinyonScript';
-    font-weight: unset;
     font-kerning: auto;
+    font-weight: unset;
     letter-spacing: -0.4px;
     color: #2F6BC9;
     font-size: 30px;
@@ -68,7 +68,6 @@ h1 {
     margin: 0px;
     margin-bottom: -4px;
     padding: 0px; 
-
 }
 
 h1::selection {
@@ -86,6 +85,9 @@ h2 {
     font-size: 24vw;
     line-height: 24vw;
     text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
@@ -164,7 +166,8 @@ p.bottomnav {
     line-height: 18px;
     text-align: center;
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
+    position: relative;
 }
 
 
@@ -306,6 +309,7 @@ a {
         top: 48%;
         left: 50%;
         transform: translate(-50%, -50%);
+        
     }
     
     
@@ -342,6 +346,9 @@ a {
         font-size: 24vw;
         line-height: 24vw;
         text-align: center;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
     
     
@@ -421,6 +428,7 @@ a {
         text-align: center;
         margin: 0px;
         padding: 0px; 
+        position: relative;
     }
     
     
