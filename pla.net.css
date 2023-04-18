@@ -37,9 +37,8 @@
 }
 
 body {
-    background-color: white;
-    margin-right: 18px;
-    margin-left: 18px;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-bottom: 18px;
 }
 
@@ -50,6 +49,29 @@ body {
     top: 46%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.overlaycontainer {
+    display: flex;
+  justify-content: center;
+}
+
+
+#maincontent {
+    margin-right: 18px;
+    margin-left: 18px;
+    background-color: white;
+}
+
+.EarthDay23background {
+    background-color: #2F6BC9;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#EarthDay23content {
+    margin-right: 18px;
+    margin-left: 18px;
 }
 
 
@@ -69,6 +91,23 @@ h1 {
     margin-bottom: -4px;
     padding: 0px; 
 }
+
+h1.earthday23 {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'PinyonScript';
+    font-kerning: auto;
+    font-weight: unset;
+    letter-spacing: -0.4px;
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -4px;
+    padding: 0px; 
+}
+
 
 h1::selection {
     background: #D8D8D8;
@@ -132,6 +171,22 @@ p.caption {
     font-kerning: auto;
     letter-spacing: -0.4px;
     color: #2F6BC9;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px; 
+}
+
+
+p.earthday23caption {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'CourierNewBold';
+    font-weight: unset;
+    font-kerning: auto;
+    letter-spacing: -0.4px;
+    color: white;
     font-size: 15px;
     line-height: 18px;
     text-align: center;
@@ -254,6 +309,15 @@ a {
     width: 25%;
 }
 
+#FlatEarth {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
 
 }
 
@@ -297,8 +361,8 @@ a {
     
     body {
         background-color: white;
-        margin-right: 18px;
-        margin-left: 18px;
+        margin-right: 0px;
+        margin-left: 0px;
         margin-bottom: 18px;
     }
     
@@ -309,7 +373,28 @@ a {
         top: 48%;
         left: 50%;
         transform: translate(-50%, -50%);
-        
+    }
+
+    .overlaycontainer {
+        display: flex;
+      justify-content: center;
+    }
+
+    #maincontent {
+        margin-right: 18px;
+        margin-left: 18px;
+        background-color: white;
+    }
+    
+    .EarthDay23background {
+        background-color: #2F6BC9;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    
+    #EarthDay23content {
+        margin-right: 18px;
+        margin-left: 18px;
     }
     
     
@@ -328,7 +413,22 @@ a {
         margin: 0px;
         margin-bottom: -4px;
         padding: 0px; 
-    
+    }
+
+    h1.earthday23 {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'PinyonScript';
+        font-kerning: auto;
+        font-weight: unset;
+        letter-spacing: -0.4px;
+        color: white;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: -4px;
+        padding: 0px; 
     }
     
     h1::selection {
@@ -393,6 +493,21 @@ a {
         font-kerning: auto;
         letter-spacing: -0.4px;
         color: #2F6BC9;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px; 
+    }
+
+    p.earthday23caption {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'CourierNewBold';
+        font-weight: unset;
+        font-kerning: auto;
+        letter-spacing: -0.4px;
+        color: white;
         font-size: 15px;
         line-height: 18px;
         text-align: center;
@@ -513,6 +628,15 @@ a {
         margin-left: auto;
         margin-right: auto;
         width: 45%;
+    }
+
+    #FlatEarth {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        width: 65%;
     }
     
     
