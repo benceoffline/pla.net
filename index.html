@@ -2,7 +2,6 @@
 
 <html lang="en">
 
-
 <head>
     <link rel="stylesheet" href="pla.net.css">
     <meta charset="UTF-8">
@@ -10,15 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pla.net</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
+    <script src="pla.net.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
 
 <body>
-    <a name="#"></a>
+    <div id="maincontent">
 
+    <a name="#"></a>
+    
+    <div class="overlaycontainer">
     <div class="overlay">
-    <h2>pla<span style="letter-spacing: -2.7vw">.</span>net</h2>
+    <h2 id="overlayh2">pla<span style="letter-spacing: -2.7vw">.</span>net</h2>
     </div>
+</div>
     
     <h1>Looking in a mirror</h1>
     <p>Looking at photographs of the Earth is analogous to looking in a mirror. You see yourself, your environment. The planet is more abstract though. It’s probably impossible to conceptually grasp all the details it encompasses, the topography, landscapes, species, people, urban environments. It’s also wild to consider the first images of Earth from space only emerged roughly 60 years ago, around 1965, which was followed by 1972’s <span class="p-italic">The Blue Marble</span>. The photo, taken by the Apollo 17 crew, became one of the most reproduced images in history.</p>
@@ -28,7 +33,7 @@
     <p class="caption"><span class="caption-italic">The Blue Marble</span>, Apollo 17 crew, 1972</p>
     <div class="sectionspacer"></div>
 
-    <h1>The first Earth day</h1>
+    <h1>The first Earth Day</h1>
     <p>The semiotic presence of the “planet” or “Earth” symbol became an increasingly adopted phenomenon. As economic and cultural globalisation started to appear on the horizon, so did this symbol on the cultural landscape. The universal recycling symbol, originating on the first Earth Day in 1970, was a key marker of this cultural shift. Its circular shape, ecological associations, and “release date" echoes these themes.</p>
     <div class="image">
         <img id="Recycling" src="assets/images/RecyclingSymbol.svg" alt="Universal Recycling Symbol">
@@ -37,7 +42,7 @@
     <div class="sectionspacer"></div>
 
     <h1>Kids in cyberspace</h1>
-    <p>Fast forward to the 90s, the global market established its cultural hegemony: we became more and more connected, socially and economically. Released around this time, in 1995 to be precise, Internet Explorer became the hallmark playground-software for many 2000s kids with a Windows XP PC, alongside Google Earth. The logo itself carried much of the “world wide” qualities of the web.</p>
+    <p>Fast forward to 1995, the global market established its cultural hegemony: we became more and more connected. Released around this time, in 1995 to be precise, Internet Explorer became the hallmark playground-software for many 2000s kids with a Windows XP PC, alongside Google Earth. The logo itself carried much of the “world wide” qualities of the web.</p>
     <div class="image">
         <img id="IELogo" src="assets/images/IELogo.svg" alt="Internet Explorer Logo">
     </div>
@@ -45,7 +50,7 @@
     <div class="sectionspacer"></div>
 
     <h1>The most replicated Earth graphic</h1>
-    <p>Fast forward another 20 years, to perhaps the most ubiquitous replications of the planet, the globe emoji. Released in iOS 10.2 on 12 December, 2016, the image have been countless Twitter users’ PFPs, and is used in online communications that denote a “global view” that is now at the forefront of our creative processes.</p>
+    <p>Fast forward another 20 years, perhaps the most ubiquitous replications of the globe, the planet emoji. Released in iOS 10.2 on 12 December, 2016, the image have been countless Twitter users’ PFPs, and is used in online communications that denote a “global view” that is now at the forefront of our creative processes.</p>
     <div class="image">
         <img id="GlobeEmoji" src="assets/images/GlobeEmoji.png" alt="iOS raster emoji depicting the Americas">
     </div>
@@ -59,7 +64,6 @@
     </div>
     <p class="caption"><span class="caption-italic">Earth perspectives</span>, Olafur Eliasson, 2020 (Image and text from the artist’s press material.)</p>
     <div class="sectionspacer"></div>
-</body>
 
 <h1>On my home screen</h1>
     <p>The next hit in the planet semiotic saga comes once again from Apple, in the form of the dynamic astronomy wallpaper, released in iOS 16 on 6 June, 2022. Architect and Real Review Editor-in-Chief Jack Self writes on the astronomy wallpaper: ‘At every time of the day or night I see an image of our planet and it’s weather, mapped from a geostationary orbit where I am the centre.’ Perhaps this is the first time the globe iconography became localised, in an explicit way. It always points to you on your screen, the centre of the world. To shake the barriers of our perceptions, it would’ve been infinitely more fascinating if it showed a completely different part of the world, or even the habitats of different species. Once again, looking at the Earth is analogous to looking in a mirror. You see yourself.</p>
@@ -68,8 +72,23 @@
     </div>
     <p class="caption">A screenshot from my phone, with the astronomy wallpaper.</p>
     <div class="sectionspacer"></div>
-</body>
+
+</div>
+
+<div class="EarthDay23background">
+<div id="EarthDay23content">
+<h1 class="earthday23">Paranoid optics</h1>
+    <p>The optics of the globe are particularly prone to conspiratorial tendencies. Prior to the first image of the Earth provided by NASA, a campaign with the message ‘Why haven't we seen a photograph of the whole Earth yet?’ circulated. The creator of the campaign, Stewart Brand, at the time editor of the influential <span class="p-italic">Whole Earth Catalog</span>, understood the impact such a photograph would have. Instead of a positive proclamation, Stewart stirred the Cold War American anxiety, posing a tone of conspiracy in his message. Amplifying similar types of paranoia, with Facebook, we now find that some claim all photographs and space missions were faked by NASA, and the Earth is in fact flat. This surfaces the fundamental issue with the globe symbol: the planet’s scale is too vast to comprehend. Without firsthand optics, the reality of it is always blurry. This abstraction is ultimately what stagnates global environmental movements.</p>
+    <div class="image">
+        <img id="FlatEarth" src="assets/images/FlatEarthSociety.png" alt="Flat Earth Society logo (modified)">
+    </div>
+    <p class="earthday23caption">Flat Earth Society logo (modified)</p>
+</div>
+</div>
+<div class="sectionspacer"></div>
+
 
 <p class="bottomnav"><a href="#">back to top</a><br>(site by <a href="https://benceivanyi.com" target="_blank">bence iványi</a>)</p>
+</body>
 
 </html>
